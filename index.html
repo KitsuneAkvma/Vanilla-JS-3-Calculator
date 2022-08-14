@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/main.css" />
+    <!--
+        Fonts
+    -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <!--
+        Favicon
+    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="public/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="public/images/favicon/site.webmanifest" />
+    <title>JS Calculator</title>
+  </head>
+  <body>
+    <main>
+        <div class="calculator">
+        <input type="text" class="calculator__input" div="input">
+        <ul class="calculator__operators">
+            <li><button class="calculator__operators__item" id="plus">+</button></li>
+            <li><button class="calculator__operators__item" id="minus">-</button></li>
+            <li><button class="calculator__operators__item" id="multi">x</button></li>
+            <li><button class="calculator__operators__item" id="divi">/</button></li>
+        </ul>
+            <ul class="calculator__numbers">
+                <li><button class="calculator__numbers__item" id="seven">7</button></li>
+                <li><button class="calculator__numbers__item" id="eight">8</button></li>
+                <li><button class="calculator__numbers__item" id="nine">9</button></li>
+                <li><button class="calculator__numbers__item" id="four">4</button></li>
+                <li><button class="calculator__numbers__item" id="five">5</button></li>
+                <li><button class="calculator__numbers__item" id="six">6</button></li>
+                <li><button class="calculator__numbers__item" id="one">1</button></li>
+                <li><button class="calculator__numbers__item" id="two">2</button></li>
+                <li><button class="calculator__numbers__item" id="three">3</button></li>
+                <li><button class="calculator__numbers__item" id="digit">,</button></li>
+                <li><button class="calculator__numbers__item" id="zero">0</button></li>
+                <li><button class="calculator__numbers__item" id="del">del</button></li>
+            </ul>
+
+            <button class="calculator__equal" id="equal">=</button>
+        </input>
+    </div>
+</main>
+<script src="public/js/calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+@mixin button-shape($theme: #90b4ce, $text: #fffffe) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.7rem;
+  height: 3.7rem;
+  border-radius: 25px;
+  font-size: 40px;
+
+  color: $text;
+
+  border: none;
+  background-color: $theme;
+} ;
